@@ -43,7 +43,7 @@
 > Estas métricas permiten evaluar precisión y utilidad educativa de la solución.
 
 > **Motivación de la elección:**  
-> Problema de alto impacto social con datos accesibles; permite aplicar técnicas del curso (EDA, limpieza, ML supervisado) y proponer intervenciones prácticas.
+> Elegimos este problema por su impacto social: mejorar rendimiento escolar influye en oportunidades futuras. Además los datos son tabulares y permiten aplicar desde EDA hasta modelos supervisados vistos en el curso.
 
 ---
 

@@ -1,11 +1,11 @@
 # 📘 IA1 - Predicción y Análisis de Rendimiento Estudiantil
 
 **Curso:** *Inteligencia Artificial I - 2025-2 C1*  
-**👥 Equipo:** *TeamName*  
+**👥 Equipo:** *LosPandas*  
 **Integrantes:**  
 - Nombre1 *(código UIS)*  
 - Nombre2 *(código UIS)*  
-- Nombre3 *(código UIS)*  
+- Jeison Fernando Guarguati Anya *2221930*  
 
 ---
 

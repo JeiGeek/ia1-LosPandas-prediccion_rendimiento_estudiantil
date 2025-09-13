@@ -28,7 +28,7 @@
 
 ## ❓ Preguntas a responder
 
-### 🔹 Antes del EDA (conceptual)
+### 🔹 Antes del EDA
 
 > **Problema y relevancia:**  
 > El objetivo es identificar los factores que afectan el rendimiento académico de los estudiantes. Comprender estos factores permite implementar intervenciones tempranas, como tutorías, apoyo familiar o acceso a recursos, para mejorar los resultados académicos y reducir desigualdades en el aprendizaje.
@@ -47,7 +47,7 @@
 
 ---
 
-### 🔹 Después del EDA (resumen)
+### 🔹 Después del EDA
 
 📌 **Datos utilizados (máx.50 palabras):**  
 POR COMPLETAR*  

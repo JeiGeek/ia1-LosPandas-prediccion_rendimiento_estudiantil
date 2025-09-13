@@ -5,7 +5,7 @@
 **Integrantes:**  
 - Nombre1 *(código UIS)*  
 - Nombre2 *(código UIS)*  
-- Jeison Fernando Guarguati Anya *2221930*  
+- Jeison Fernando Guarguati Anaya - *2221930*  
 
 ---
 
@@ -21,8 +21,8 @@
 
 ## 📊 Dataset
 - **Nombre:** *Student Performance Factors*  
-- **Enlace:** [🔗 Ver dataset](#)  
-- **Tamaño:** `N registros × M columnas`  
+- **Enlace:** [🔗 Ver dataset](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)  
+- **Tamaño:** `6607 registros × 20 columnas`  
 
 ---
 
@@ -30,19 +30,19 @@
 
 ### 🔹 Antes del EDA (conceptual)
 
-> **Problema y relevancia (máx.100 palabras):**  
+> **Problema y relevancia:**  
 > Identificar los factores que más afectan `Exam_Score` y construir un modelo predictivo para detectar estudiantes en riesgo. Esto es importante porque permite intervenciones tempranas (tutorías, apoyo familiar, recursos) que mejoran resultados académicos y reducen brechas.
 
-> **Objetivo del análisis (máx.75 palabras):**  
+> **Objetivo del análisis:**  
 > La fase de EDA explorará relaciones entre variables, calidad y limpieza de datos, sesgos y distribuciones para definir features y métricas para el modelo predictivo en entregas posteriores.
 
-> **Métricas o indicadores (máx.75 palabras):**  
+> **Métricas o indicadores:**  
 > - Correlaciones y análisis bivariado con `Exam_Score`  
 > - Comparaciones de medias por categorías  
 > - Métricas de modelo: **MAE/RMSE** (regresión) y **AUC/F1/Recall** (clasificación de riesgo)  
 > Estas métricas permiten evaluar precisión y utilidad educativa de la solución.
 
-> **Motivación de la elección (máx.50 palabras):**  
+> **Motivación de la elección:**  
 > Problema de alto impacto social con datos accesibles; permite aplicar técnicas del curso (EDA, limpieza, ML supervisado) y proponer intervenciones prácticas.
 
 ---

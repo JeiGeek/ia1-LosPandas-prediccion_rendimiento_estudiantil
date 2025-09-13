@@ -70,7 +70,3 @@ POR COMPLETAR
 ## 🚀 Flujo del proyecto
 POR COMPLETAR
 
----
-
-> 🔔 **Nota:** Puedes añadir badges de Python o de GitHub Actions para darle aún más estilo visual al README.
-

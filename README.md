@@ -31,19 +31,19 @@
 ### 🔹 Antes del EDA (conceptual)
 
 > **Problema y relevancia:**  
-> Identificar los factores que más afectan `Exam_Score` y construir un modelo predictivo para detectar estudiantes en riesgo. Esto es importante porque permite intervenciones tempranas (tutorías, apoyo familiar, recursos) que mejoran resultados académicos y reducen brechas.
+> El objetivo es identificar los factores que afectan el rendimiento académico de los estudiantes. Comprender estos factores permite implementar intervenciones tempranas, como tutorías, apoyo familiar o acceso a recursos, para mejorar los resultados académicos y reducir desigualdades en el aprendizaje.
 
 > **Objetivo del análisis:**  
-> La fase de EDA explorará relaciones entre variables, calidad y limpieza de datos, sesgos y distribuciones para definir features y métricas para el modelo predictivo en entregas posteriores.
+> La fase de exploración de los datos permite observar relaciones entre variables, identificar patrones, detectar problemas en la información y preparar los datos para futuros análisis predictivos. Esto ayuda a entender qué aspectos influyen en el rendimiento antes de aplicar modelos de predicción.
 
 > **Métricas o indicadores:**  
-> - Correlaciones y análisis bivariado con `Exam_Score`  
-> - Comparaciones de medias por categorías  
-> - Métricas de modelo: **MAE/RMSE** (regresión) y **AUC/F1/Recall** (clasificación de riesgo)  
-> Estas métricas permiten evaluar precisión y utilidad educativa de la solución.
+> - Correlación entre variables numéricas y el puntaje final (Exam_Score) para evaluar relaciones.
+> - Comparación de promedios según grupos categóricos (por ejemplo, nivel de involucramiento de los padres o tipo de colegio).
+> - Evaluación de modelos predictivos mediante error promedio (MAE/RMSE) y, en caso de clasificación de estudiantes en riesgo, precisión, recall y F1.
+> - Importancia de variables para identificar los factores más relevantes.
 
 > **Motivación de la elección:**  
-> Elegimos este problema por su impacto social: mejorar rendimiento escolar influye en oportunidades futuras. Además los datos son tabulares y permiten aplicar desde EDA hasta modelos supervisados vistos en el curso.
+> El problema tiene impacto social al mejorar el rendimiento estudiantil y permite aplicar técnicas de análisis y modelos predictivos sobre datos disponibles, combinando aprendizaje del curso con aplicaciones prácticas.
 
 ---
 

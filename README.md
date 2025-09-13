@@ -50,19 +50,13 @@
 ### 🔹 Después del EDA (resumen)
 
 📌 **Datos utilizados (máx.50 palabras):**  
-Tabla con variables numéricas y categóricas relacionadas con factores académicos, demográficos y contextuales. Fuente: *Student Performance Factors (CSV).*  
+POR COMPLETAR*  
 
 📌 **Información contenida (máx.100 palabras):**  
-El dataset incluye horas de estudio, asistencia, participación parental, acceso a recursos, actividades extracurriculares, horas de sueño, puntajes previos, motivación, acceso a Internet, tutorías, ingresos familiares, calidad del docente, tipo de colegio, influencia de pares, actividad física, discapacidades de aprendizaje, nivel educativo parental, distancia al colegio, género y la variable objetivo `Exam_Score`. Estas variables permiten analizar correlaciones e interacciones que afectan el rendimiento.  
+POR COMPLETAR 
 
 📌 **Desafíos asociados a los datos (máx.100 palabras):**  
-- Valores faltantes y ruido en encuestas autoinformadas  
-- Sesgo de selección (muestra no representativa)  
-- Categorías con pocas observaciones  
-- Variables ordinales mal codificadas  
-- Outliers en `Exam_Score` y `Previous_Scores`  
-- Multicolinealidad entre variables  
-- Contexto local que limita la generalización  
+POR COMPLETAR
 
 ---
 
@@ -74,12 +68,7 @@ El dataset incluye horas de estudio, asistencia, participación parental, acceso
 ---
 
 ## 🚀 Flujo del proyecto
-1. **Carga y exploración inicial de datos**  
-2. **EDA (gráficos, correlaciones, limpieza, outliers)**  
-3. **Preprocesamiento y selección de features**  
-4. **Modelado predictivo (regresión / clasificación)**  
-5. **Evaluación y métricas**  
-6. **Conclusiones y recomendaciones educativas**  
+POR COMPLETAR
 
 ---
 

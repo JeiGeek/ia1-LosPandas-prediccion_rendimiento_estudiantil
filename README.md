@@ -50,10 +50,10 @@
 ### 🔹 Después del EDA
 
 📌 **Datos utilizados (máx.50 palabras):**  
-> Los datos con los que vamos a trabajar para este proyecto provienen del dataset “Student Performance Factors” de Kaggle y son en formato tablas numéricas y categóricas. Contienen registros individuales de estudiantes con información académica y personal relevante para la clasificación del rendimiento y predicción del abandono escolar.
+> Los datos con los que vamos a trabajar para este proyecto provienen del dataset “Student Performance Factors” de Kaggle y son en formato tablas numéricas y categóricas. Contienen registros individuales de estudiantes con información académica y personal relevante para la clasificación del rendimiento de estos en los examenes.
 
 📌 **Información contenida (máx.100 palabras):**  
-Las variables presentes incluyen notas previas, hábitos de estudio, nivel de asistencia, edad, género y otros factores sociodemográficos y académicos. Estas características permiten identificar patrones asociados con el rendimiento y la deserción, facilitando la aplicación de modelos predictivos y análisis exploratorio para encontrar factores de riesgo y oportunidades de intervención.
+> Las variables presentes incluyen notas previas, hábitos de estudio, nivel de asistencia, edad, género y otros factores sociodemográficos y académicos. Estas características permiten identificar patrones asociados con el rendimiento, facilitando la aplicación de modelos predictivos y análisis exploratorio para encontrar factores de riesgo y oportunidades de intervención.
 
 📌 **Desafíos asociados a los datos (máx.100 palabras):**  
 POR COMPLETAR

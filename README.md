@@ -3,8 +3,8 @@
 **Curso:** *Inteligencia Artificial I - 2025-2 C1*  
 **👥 Equipo:** *LosPandas*  
 **Integrantes:**  
-- Miguel Andres Jaimes Ortiz - 2221895
-- Thomas Alejandro Rincón Valencia - 2221915 
+- Miguel Andres Jaimes Ortiz - *2221895*
+- Thomas Alejandro Rincón Valencia - *2221915* 
 - Jeison Fernando Guarguati Anaya - *2221930*  
 
 ---
@@ -50,10 +50,10 @@
 ### 🔹 Después del EDA
 
 📌 **Datos utilizados (máx.50 palabras):**  
-POR COMPLETAR*  
+> Los datos con los que vamos a trabajar para este proyecto provienen del dataset “Student Performance Factors” de Kaggle y son en formato tablas numéricas y categóricas. Contienen registros individuales de estudiantes con información académica y personal relevante para la clasificación del rendimiento y predicción del abandono escolar.
 
 📌 **Información contenida (máx.100 palabras):**  
-POR COMPLETAR 
+Las variables presentes incluyen notas previas, hábitos de estudio, nivel de asistencia, edad, género y otros factores sociodemográficos y académicos. Estas características permiten identificar patrones asociados con el rendimiento y la deserción, facilitando la aplicación de modelos predictivos y análisis exploratorio para encontrar factores de riesgo y oportunidades de intervención.
 
 📌 **Desafíos asociados a los datos (máx.100 palabras):**  
 POR COMPLETAR

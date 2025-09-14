@@ -4,7 +4,7 @@
 **👥 Equipo:** *LosPandas*  
 **Integrantes:**  
 - Miguel Andres Jaimes Ortiz - 2221895
-- Thomas Alejandro Rincón Valencia - 2221915  
+- Thomas Alejandro Rincón Valencia - 2221915 
 - Jeison Fernando Guarguati Anaya - *2221930*  
 
 ---

@@ -56,7 +56,7 @@
 > Las variables presentes incluyen notas previas, hábitos de estudio, nivel de asistencia, edad, género y otros factores sociodemográficos y académicos. Estas características permiten identificar patrones asociados con el rendimiento, facilitando la aplicación de modelos predictivos y análisis exploratorio para encontrar factores de riesgo y oportunidades de intervención.
 
 📌 **Desafíos asociados a los datos (máx.100 palabras):**  
-POR COMPLETAR
+El dataset presenta algunos retos importantes para el análisis. Se detectaron valores atípicos, como un puntaje de examen de 101, que excede el rango esperado (0–100). Existen variables con correlaciones muy bajas con la nota final, lo que podría introducir ruido en los modelos. La mayoría de estudiantes se concentra en notas medias, lo que dificulta distinguir casos extremos. También es necesario tratar la codificación de variables categóricas, ya que algunas son ordinales y otras binarias. Finalmente, factores externos no medidos (ej. contexto emocional o social) pueden influir y no están representados en los datos.
 
 ---
 

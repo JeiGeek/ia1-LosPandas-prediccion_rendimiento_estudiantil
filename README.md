@@ -68,5 +68,7 @@
 ---
 
 ## 🚀 Flujo del proyecto
-POR COMPLETAR
+- Exploración de datos
+- Validación modelos supervisados
+- Validación modelos no supervisados
 

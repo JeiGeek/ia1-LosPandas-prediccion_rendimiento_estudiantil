@@ -1,6 +1,6 @@
 # 📘 IA1 - Predicción y Análisis de Rendimiento Estudiantil
 
-![Second Shop Logo/Banner Placeholder](https://github.com/JeiGeek/Proyecto_tienda/blob/master/Frontend/src/imagenes/20.jpg)
+![Portada/Banner Placeholder](https://github.com/JeiGeek/ia1-LosPandas-prediccion_rendimiento_estudiantil/blob/main/src/Portada.jpg)
 
 **Curso:** *Inteligencia Artificial I - 2025-2 C1*  
 **👥 Equipo:** *LosPandas*  

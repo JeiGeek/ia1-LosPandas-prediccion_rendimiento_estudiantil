@@ -3,9 +3,9 @@
 **Curso:** *Inteligencia Artificial I - 2025-2 C1*  
 **👥 Equipo:** *LosPandas*  
 **Integrantes:**  
-- Miguel Andres Jaimes Ortiz - *2221895*
-- Thomas Alejandro Rincón Valencia ☠️⚰️🎗️ - *2221915* 
-- Jeison Fernando Guarguati Anaya - *2221930*  
+- Miguel Andres Jaimes Ortiz — *2221895*  
+- Thomas Alejandro Rincón Valencia ☠️⚰️🎗️ — *2221915*  
+- Jeison Fernando Guarguati Anaya — *2221930*  
 
 ---
 
@@ -13,62 +13,147 @@
 - [Dataset](#dataset)
 - [Preguntas a responder](#preguntas-a-responder)
   - [Antes del EDA (conceptual)](#antes-del-eda-conceptual)
-  - [Después del EDA (resumen)](#despues-del-eda-resumen)
+  - [Después del EDA (resumen)](#después-del-eda-resumen)
+- [Hipótesis inicial y modelos planeados](#hipótesis-inicial-y-modelos-planeados)
 - [Tecnologías](#tecnologías-a-utilizar)
+- [Resumen de modelos utilizados](#resumen-de-modelos-utilizados)
 - [Flujo del proyecto](#flujo-del-proyecto)
+- [Video](#video)
 
 ---
 
 ## 📊 Dataset
+
 - **Nombre:** *Student Performance Factors*  
-- **Enlace:** [🔗 Ver dataset](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)  
+- **Fuente externa:** Kaggle  
+  - **Enlace:** https://www.kaggle.com/datasets/lainguyn123/student-performance-factors  
+  - **Descarga:**  
+    1. Crear cuenta en Kaggle  
+    2. Entrar al enlace  
+    3. Clic en *Download Dataset*  
+    4. Colocar el archivo `.csv` dentro de `/data/`
+
+- **Ubicación dentro de este repositorio:**
+  ```
+  /data/student_performance.csv
+  ```
+
 - **Tamaño:** `6607 registros × 20 columnas`  
 
 ---
 
 ## ❓ Preguntas a responder
 
-### 🔹 Antes del EDA
+### 🔹 Antes del EDA (conceptual)
 
 > **Problema y relevancia:**  
-> El objetivo es identificar los factores que afectan el rendimiento académico de los estudiantes. Comprender estos factores permite implementar intervenciones tempranas, como tutorías, apoyo familiar o acceso a recursos, para mejorar los resultados académicos y reducir desigualdades en el aprendizaje.
+> Identificar los factores que afectan el rendimiento académico para permitir intervenciones tempranas como tutorías, estrategias de estudio y apoyo familiar.
 
 > **Objetivo del análisis:**  
-> La fase de exploración de los datos permite observar relaciones entre variables, identificar patrones, detectar problemas en la información y preparar los datos para futuros análisis predictivos. Esto ayuda a entender qué aspectos influyen en el rendimiento antes de aplicar modelos de predicción.
+> Observar relaciones entre variables, detectar patrones y preparar datos para modelos predictivos y análisis posteriores.
 
 > **Métricas o indicadores:**  
-> - Correlación entre variables numéricas y el puntaje final (Exam_Score) para evaluar relaciones.
-> - Comparación de promedios según grupos categóricos (por ejemplo, nivel de involucramiento de los padres o tipo de colegio).
-> - Evaluación de modelos predictivos mediante error promedio (MAE/RMSE) y, en caso de clasificación de estudiantes en riesgo, precisión, recall y F1.
-> - Importancia de variables para identificar los factores más relevantes.
+> - Correlación con *Exam_Score*  
+> - Promedios por categoría  
+> - MAE / MSE / RMSE para regresión  
+> - Accuracy / Recall / F1 / Balanced Accuracy para clasificación  
+> - Importancia de características  
 
 > **Motivación de la elección:**  
-> El problema tiene impacto social al mejorar el rendimiento estudiantil y permite aplicar técnicas de análisis y modelos predictivos sobre datos disponibles, combinando aprendizaje del curso con aplicaciones prácticas.
+> Es un problema con impacto social real y permite la aplicación práctica de técnicas de EDA, ML supervisado, no supervisado y reducción de dimensionalidad vistas en el curso.
 
 ---
 
-### 🔹 Después del EDA
+### 🔹 Después del EDA (resumen)
 
-📌 **Datos utilizados (máx.50 palabras):**  
-> Los datos con los que vamos a trabajar para este proyecto provienen del dataset “Student Performance Factors” de Kaggle y son en formato tablas numéricas y categóricas. Contienen registros individuales de estudiantes con información académica y personal relevante para la clasificación del rendimiento de estos en los examenes.
+📌 **Datos utilizados (máx. 50 palabras):**  
+> Dataset con información académica y personal de estudiantes, incluyendo hábitos de estudio, asistencia, acceso a recursos, motivación y notas previas. Adecuado para análisis exploratorio, regresión y clasificación del rendimiento académico.
 
-📌 **Información contenida (máx.100 palabras):**  
-> Las variables presentes incluyen notas previas, hábitos de estudio, nivel de asistencia, edad, género y otros factores sociodemográficos y académicos. Estas características permiten identificar patrones asociados con el rendimiento, facilitando la aplicación de modelos predictivos y análisis exploratorio para encontrar factores de riesgo y oportunidades de intervención.
+📌 **Información contenida (máx. 100 palabras):**  
+> Contiene 20 variables categóricas y numéricas relacionadas con factores académicos (horas de estudio, asistencia, notas previas), personales (género, motivación, discapacidades) y socioeconómicos (ingresos, educación de los padres). La variable objetivo es *Exam_Score*. Permite analizar patrones y construir modelos predictivos para estimar rendimiento y riesgo académico.
 
-📌 **Desafíos asociados a los datos (máx.100 palabras):**  
-> El dataset presenta algunos retos importantes para el análisis. Se detectaron valores atípicos, como un puntaje de examen de 101, que excede el rango esperado (0–100). Existen variables con correlaciones muy bajas con la nota final, lo que podría introducir ruido en los modelos. La mayoría de estudiantes se concentra en notas medias, lo que dificulta distinguir casos extremos. También es necesario tratar la codificación de variables categóricas, ya que algunas son ordinales y otras binarias. Finalmente, factores externos no medidos (ej. contexto emocional o social) pueden influir y no están representados en los datos.
+📌 **Desafíos asociados a los datos (máx. 100 palabras):**  
+> Se identificaron valores atípicos (nota 101). Muchas variables presentan baja correlación con la nota, dificultando el modelado. La distribución de *Exam_Score* está concentrada entre 60 y 80 puntos, complicando predecir extremos. Se requiere transformar variables categóricas (algunas ordinales). Además, aspectos emocionales o sociales no incluidos podrían influir en el rendimiento.
+
+---
+
+## 🧠 Hipótesis inicial y modelos planeados
+
+### ✔ Hipótesis inicial
+> Antes del análisis, el equipo asumía que:  
+> - **Horas de estudio**,  
+> - **Asistencia**,  
+> - **Notas previas**, y  
+> - **Participación de los padres**  
+> serían los factores más relevantes para el rendimiento académico.
+
+También esperábamos que **SVM** y **Random Forest** tuvieran el mejor rendimiento por su capacidad para manejar relaciones no lineales.
+
+### ✔ Modelos planeados inicialmente
+- **Regresión:** Regresión Lineal, SVR, Random Forest, Deep Learning  
+- **Clasificación:** Naive Bayes, Árboles de Decisión, Random Forest, SVM, Deep Learning  
+- **No supervisado:** K-Means, DBSCAN, Agglomerative Clustering  
+- **Dimensionalidad:** PCA, t-SNE  
 
 ---
 
 ## 🛠️ Tecnologías a utilizar
 - **Lenguaje:** Python 🐍  
-- **Librerías:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-- **Entorno:** Jupyter Notebook / Google Colab  
+- **Librerías:**  
+  - Pandas  
+  - NumPy  
+  - Matplotlib  
+  - Seaborn  
+  - Scikit-learn  
+  - TensorFlow / Keras  
+- **Entorno:** Google Colab / Jupyter Notebook  
+
+---
+
+## 📦 Resumen de modelos utilizados
+
+| Tipo                | Modelos usados                                                |
+|--------------------|---------------------------------------------------------------|
+| **Regresión**      | SVR, Random Forest, Decision Tree, Deep Learning              |
+| **Clasificación**  | Naive Bayes, SVM, Random Forest, Deep Learning                |
+| **No supervisado** | K-Means, DBSCAN, Agglomerative Clustering                     |
+| **Dimensionalidad**| PCA, t-SNE                                                    |
 
 ---
 
 ## 🚀 Flujo del proyecto
-- Exploración de datos
-- Validación modelos supervisados
-- Validación modelos no supervisados
+
+```
+                ┌─────────────────────┐
+                │  1. Cargar datos    │
+                └─────────┬──────────┘
+                          │
+                ┌─────────▼──────────┐
+                │       EDA           │
+                │  (exploración)      │
+                └─────────┬──────────┘
+                          │
+           ┌──────────────┼──────────────────┐
+           │              │                  │
+┌──────────▼─────────┐ ┌──▼────────────────┐ ┌──────────────▼────────────┐
+│   Modelos           │ │ Reducción         │ │ Aprendizaje no supervisado │
+│   supervisados      │ │  dimensional      │ │       (clusters)           │
+└──────────┬─────────┘ └──────────┬────────┘ └──────────────┬────────────┘
+           │                      │                          │
+           └──────────────┬───────┴────────────┬────────────┘
+                          │                    │
+                ┌─────────▼────────┐   ┌───────▼────────────┐
+                │ Evaluación final  │   │   Conclusiones     │
+                └───────────────────┘   └────────────────────┘
+```
+
+---
+
+## 🎥 Video
+Video resumen del proyecto (máx. 5 minutos):
+
+🔗 **[Enlace al video]()**  
+*(se agregará cuando esté publicado)*
+
+---
 

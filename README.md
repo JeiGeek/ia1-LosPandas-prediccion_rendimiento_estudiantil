@@ -126,7 +126,7 @@ También esperábamos que **SVM** y **Random Forest** tuvieran el mejor rendimie
 ## 🚀 Flujo del proyecto
 
 ```
-![Pipeline/Banner Placeholder](https://github.com/JeiGeek/ia1-LosPandas-prediccion_rendimiento_estudiantil/blob/main/src/Pipeline.png)
+![Pipeline/Banner Placeholder](https://raw.githubusercontent.com/JeiGeek/ia1-LosPandas-prediccion_rendimiento_estudiantil/main/src/Pipeline.png)
 ```
 
 ---

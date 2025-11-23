@@ -44,7 +44,7 @@
 
 ## ❓ Preguntas a responder
 
-### 🔹 Antes del EDA (conceptual)
+### Antes del EDA (conceptual)
 
 > **Problema y relevancia:**  
 > Identificar los factores que afectan el rendimiento académico para permitir intervenciones tempranas como tutorías, estrategias de estudio y apoyo familiar.
@@ -64,7 +64,7 @@
 
 ---
 
-### 🔹 Después del EDA (resumen)
+### Después del EDA (resumen)
 
 📌 **Datos utilizados (máx. 50 palabras):**  
 > Dataset con información académica y personal de estudiantes, incluyendo hábitos de estudio, asistencia, acceso a recursos, motivación y notas previas. Adecuado para análisis exploratorio, regresión y clasificación del rendimiento académico.

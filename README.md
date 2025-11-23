@@ -37,7 +37,7 @@
 
 - **Ubicación dentro de este repositorio:**
   ```
-  /data/student_performance.csv
+  /Dataset/student_performance.csv
   ```
 
 - **Tamaño:** `6607 registros × 20 columnas`  

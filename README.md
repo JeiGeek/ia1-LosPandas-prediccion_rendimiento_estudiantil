@@ -132,8 +132,7 @@ También esperábamos que **SVM** y **Random Forest** tuvieran el mejor rendimie
 ## 🎥 Video
 Video resumen del proyecto (máx. 5 minutos):
 
-🔗 **[Enlace al video]()**  
-*(se agregará cuando esté publicado)*
+🔗 **[Enlace al video](https://youtu.be/CDwYOQXUqp0)**  
 
 ---
 
